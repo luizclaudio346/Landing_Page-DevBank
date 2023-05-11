@@ -1,0 +1,138 @@
+/* Reset de estilos padrão */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Estilos para o header */
+
+header {
+	background-color: #007bff;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Estilos para a seção hero */
+
+.hero {
+	background-image: url('jpg/ImagemFundo1.jpg');
+	background-size: cover;
+  background-position: center;
+  height: 100vh; /* altura igual à altura do viewport */
+  display: flex; /* adiciona o display flex para que os elementos filhos possam ser posicionados facilmente */
+  align-items: center; /* centraliza verticalmente o conteúdo */
+  justify-content: space-between; /* distribui o espaço horizontalmente entre os filhos */
+}
+
+.hero-content {
+	width: 50%; /* ocupa metade da largura disponível */
+	text-align: left; /* alinha o texto à esquerda */
+	margin-left: 5%; /* adiciona um espaço à esquerda para separar do logo */
+	margin-right: 20%; /* adiciona um espaço à direita para separar dos botões */
+	color: #ffffff;
+}
+
+.hero h2 {
+	margin-top: 0;
+	font-size: 36px;
+	line-height: 1.2;
+	color: #007bff;
+}
+
+.hero p {
+	margin-bottom: 50px;
+}
+
+.cta {
+	background-color: #ffffff;
+	color: #007bff;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 25px;
+	margin-top: 20px;
+	width: 45%; /* define a largura de cada botão */
+	text-align: center; /* centraliza o texto horizontalmente */
+  }
+
+.cta:hover {
+	background-color: #0062cc;
+}
+
+/* Estilos para a seção de features */
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.feature {
+	flex-basis: calc(33.33% - 20px);
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	padding: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+	margin-bottom: 20px;
+}
+
+.feature h3 {
+	margin-top: 0;
+}
+
+.feature p {
+	margin-bottom: 0;
+}
+
+/* Estilos para o footer */
+
+footer {
+	background-color: #f7f7f7;
+	padding: 20px;
+	text-align: center;
+	border-top: 1px solid #eee;
+}
